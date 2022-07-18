@@ -13,7 +13,13 @@ class App extends React.Component{
         );
     }
 
+    componentDidMount(){
+        console.log("The component has been rendered");
+    }
 
+    componentDidUpdate(){
+        console.log("component has updated- it rerendered");
+    }
 
     render(){
         
